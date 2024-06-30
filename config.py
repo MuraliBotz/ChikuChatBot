@@ -30,7 +30,7 @@ SETCMD = getenv("SETCMD", "True")
 # upstream repo 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/MuraliBotz/ChikuBot",
+    "https://github.com/MuraliBotz/ChikuChatBot",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
