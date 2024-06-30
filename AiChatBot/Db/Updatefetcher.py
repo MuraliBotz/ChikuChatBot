@@ -7,10 +7,9 @@ import os
 import config
 
 
-git_executable = os.environ.get('GIT_PYTHON_GIT_EXECUTABLE', '/usr/bin/git')
+os.environ['GIT_PYTHON_GIT_EXECUTABLE'] = '/usr/bin/git'
 
-
-Git.refresh(git_executable)
+Git.refresh()
 
 def install_req(cmd: str) -> Tuple[str, str, int, int]:
     async def install_requirements():
@@ -69,3 +68,4 @@ def git():
             repo.git.reset("--hard", "FETCH_HEAD")
         install_req("pip3 install --no-cache-dir -r requirements.txt")
         print(f"𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐅𝐞𝐭𝐜𝐡𝐞𝐝 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐅𝐫𝐨𝐦 𝐂𝐡𝐢𝐤𝐮 𝐁𝐨𝐭 💓.")
+
