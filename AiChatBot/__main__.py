@@ -16,7 +16,7 @@ async def Murali():
     await Chiku.start()
     for all_module in ALL_MODULES:
         importlib.import_module("AiChatBot.modules." + all_module)
-  #  await Chiku.send_message(LOGGER_ID, f"๏ {Chiku.mention} sᴛᴀʀᴛᴇᴅ ➛ \n\n๏ ɴᴀᴍᴇ ➛ {Chiku.name}\n๏ ɪᴅ ➛ {Chiku.id}\n๏ ᴜsᴇʀɴᴀᴍᴇ ➛ @{Chiku.username} \n\n||ᴍᴀᴅᴇ ʙʏ ᴍᴜʀᴀʟɪ 🥀 ||")
+    await Chiku.send_message(LOGGER_ID, f"๏ {Chiku.mention} sᴛᴀʀᴛᴇᴅ ➛ \n\n๏ ɴᴀᴍᴇ ➛ {Chiku.name}\n๏ ɪᴅ ➛ {Chiku.id}\n๏ ᴜsᴇʀɴᴀᴍᴇ ➛ @{Chiku.username} \n\n||ᴍᴀᴅᴇ ʙʏ ᴍᴜʀᴀʟɪ 🥀 ||")
     print("𝐂𝐇𝐈𝐊𝐔 𝐁𝐎𝐓 𝐇𝐀𝐒 𝐁𝐄𝐄𝐍 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 ✨")
     print("𝐃𝐨𝐧𝐭 𝐅𝐨𝐫𝐠𝐞𝐭 𝐓𝐨 𝐕𝐢𝐬𝐢𝐭 @𝐌𝐮𝐫𝐚𝐥𝐢𝐁𝐨𝐭𝐳 ⭐")
     if SETCMD:
