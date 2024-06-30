@@ -24,7 +24,7 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("pymongo").setLevel(logging.ERROR)
 
-
+# Hehehe
 
 class ChikuBot(Client):
     def __init__(self):
