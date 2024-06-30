@@ -1,0 +1,42 @@
+{
+  "name": "𝐂𝐡𝐢𝐤𝐮 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭",
+  "description": "Telegram Bot using Pyrogram",
+  "repository": "https://github.com/MuraliBotz/ChikuBot",
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram User ID (Owner)",
+      "required": true
+    },
+    "LOGGER_ID": {
+      "description": "A telegram group id add your bot in that group and promote to admin",
+      "required": true
+    },
+    "SUPPORT_GROUP": {
+      "description": "Enter Your Telegram Group Username Without @",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "Your mongo db url for database",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "stack": "heroku-22"
+}
+
