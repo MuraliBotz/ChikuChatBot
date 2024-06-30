@@ -55,7 +55,7 @@ Chiku = ChikuBot()
 
 
 
-#from AiChatBot.Db import git
+from AiChatBot.Db import git
 
-#Up = git()
+Up = git()
 
