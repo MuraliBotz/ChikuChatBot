@@ -10,6 +10,8 @@ API_HASH = os.environ.get("API_HASH")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
+GIT_PYTHON_GIT_EXECUTABLE = os.environ.get("GIT_PYTHON_GIT_EXECUTABLE")
+
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "6844821478").split())
 ) 
