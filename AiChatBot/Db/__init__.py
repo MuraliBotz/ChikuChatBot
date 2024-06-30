@@ -1,3 +1,3 @@
 from .ChatsDb import *
 from .Usersdb import *
-from .Updatefetcher import *
+#from .Updatefetcher import *
