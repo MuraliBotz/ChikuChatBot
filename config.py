@@ -12,7 +12,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6844821478").split())
+    map(int, getenv("OWNER_ID", "6764358144").split())
 ) 
 
 #Fill Only Username Without @
