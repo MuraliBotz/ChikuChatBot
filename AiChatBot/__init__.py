@@ -44,6 +44,11 @@ class ChikuBot(Client):
         self.name = self.me.first_name + " " + (self.me.last_name or "")
         self.username = self.me.username
         self.mention = self.me.mention
+        try:
+            await self.resolve_peer(config.LOGGER_ID)
+            await self.send_message(LOGGER_ID, f"๏ {self.mention} sᴛᴀʀᴛᴇᴅ ➛ \n\n๏ ɴᴀᴍᴇ ➛ {self.name}\n๏ ɪᴅ ➛ {self.id}\n๏ ᴜsᴇʀɴᴀᴍᴇ ➛ @{self.username} \n\n||ᴍᴀᴅᴇ ʙʏ ᴍᴜʀᴀʟɪ 🥀 ||")
+        except:
+            pass
 
     async def stop(self):
         await super().stop()
