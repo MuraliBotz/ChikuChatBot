@@ -5,4 +5,4 @@ from pyrogram import filters
 
 load_dotenv()
 
-Owner = list(map(int, getenv("Owner", "6764358144 6764358144").split()))
+Owner = list(map(int, getenv("Owner", "6764358144 7301077117").split()))
