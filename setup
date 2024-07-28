@@ -94,7 +94,7 @@ pprint "API ID: "; color_reset; read api_id
 pprint "\nAPI HASH: "; color_reset; read api_hash
 pprint "\nBOT TOKEN: "; color_reset; read bot_token
 pprint "\nOWNER ID:"; color_reset; read ownid
-pprint "\nMONGO URL: "; color_reset; read mongo_db
+pprint "\nMONGO URL: "; color_reset; read mongo_url
 
 
 pprint "\n\nProcessing your vars, wait a while !" "cgreen"
